@@ -1,7 +1,3 @@
-import React from "react";
-
-const Song = ({ params }) => {
+export default function SongPage({ params }) {
   return <div>Song: {params.id}</div>;
-};
-
-export default Song;
+}
